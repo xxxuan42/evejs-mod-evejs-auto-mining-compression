@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression/releases/download/v1.1.3/evejs-auto-mining-compression-1.1.3.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression/releases/download/v1.2.6/evejs-auto-mining-compression-1.2.6.zip"
     }
   ],
   "evejsVersions": [
@@ -26,16 +26,19 @@
   "highlights": [],
   "history": [],
   "id": "evejs-auto-mining-compression",
-  "publishedAt": "2026-11-16",
-  "readme": [],
+  "publishedAt": "2026-11-21",
+  "readme": [
+    "无人机自动采矿 + 服务端自动压矿（EveJS 服务端内存注入型模组）。",
+    "服务端 `server/src` 一个字节都不改：补丁通过启动器注入总线在**内存中**追加到目标模块，\n停用模组并重启服务端即完全还原。"
+  ],
   "repo": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression",
   "requiresRestart": true,
-  "sha256": "b156d4581aa4b68181bf5b24fad550d4feac1fea28a4f0118e76f35091a8b6da",
-  "sizeBytes": 15688,
+  "sha256": "f9f0c21b89e0d67d4bab32c1398060822dc10bdd7b5fe65c0216e94913214a14",
+  "sizeBytes": 42708,
   "tags": [
     "无人机",
     "采矿",
     "压缩"
   ],
-  "version": "1.1.3"
+  "version": "1.2.6"
 }
