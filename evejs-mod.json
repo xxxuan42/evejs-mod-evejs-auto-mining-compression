@@ -8,35 +8,35 @@
   "changelog": "",
   "conflicts": [],
   "delisted": false,
-  "description": "[[[使用方法：释放无人机,锁定一个矿石按F即可全自动循环采矿]]]。无人机自动采矿——F 键/手动采矿指令按「矿石数 vs 已释放无人机数」自动分配目标，采空后自动续采下一个兼容矿石，续采范围限制在 200km 内；2) 自动压矿——骑乘带压缩设施的舰船时，每 10 秒自动压缩本舰矿舱（矿石/月矿/冰/气/小行星专用舱）里的可压缩矿物。停用本模组并重启服务端即还原。",
+  "description": "无人机自动采矿：F 键/手动采矿指令按矿石数与已释放无人机数自动分配目标，采空后自动续采兼容矿石（限 200km 内），矿舱腾出空间后自动恢复；自动压矿：带压缩设施的舰船每 10 秒自动压缩本舰矿舱（矿石/月矿/冰/气/小行星专用舱）中的可压缩矿物。",
   "displayName": "无人机自动采矿 + 自动压矿",
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression/releases/download/v1.3.2/evejs-auto-mining-compression-1.3.2.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression/releases/download/v1.3.3/evejs-auto-mining-compression-1.3.3.zip"
     }
   ],
   "evejsVersions": [
-    "261125.3"
+    "261126.2"
   ],
   "featured": false,
   "highlights": [],
   "history": [],
   "id": "evejs-auto-mining-compression",
-  "publishedAt": "2026-11-26",
+  "publishedAt": "2026-11-27",
   "readme": [
     "无人机自动采矿 + 服务端自动压矿（EveJS 服务端内存注入型模组）。",
     "服务端 `server/src` 一个字节都不改：补丁通过启动器注入总线在**内存中**追加到目标模块，\n停用模组并重启服务端即完全还原。"
   ],
   "repo": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression",
   "requiresRestart": true,
-  "sha256": "c0ee8fd22be9b613c0c4c541eed6365c689adf2eaf0874b2282bee4d8d825106",
-  "sizeBytes": 50716,
+  "sha256": "15e8bf50151ef55f7c977fe35e2f8278d88a7e74df678f9b2f0d95bcb778d2e2",
+  "sizeBytes": 50850,
   "tags": [
     "无人机",
     "采矿",
     "压缩"
   ],
-  "version": "1.3.2"
+  "version": "1.3.3"
 }
